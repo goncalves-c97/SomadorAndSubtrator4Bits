@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/082190011/Desktop/SomadorSubtrator4Bits/Reg8bitsProj/reg8bits.xst" -ofn "C:/Users/082190011/Desktop/SomadorSubtrator4Bits/Reg8bitsProj/reg8bits.syr" 
