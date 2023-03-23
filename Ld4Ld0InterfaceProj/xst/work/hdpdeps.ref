@@ -1,0 +1,8 @@
+V3 3
+FL /home/ise/Documents/Ld4Ld0InterfaceProj/LedInterface.vhd 2023/03/23.22:48:21 P.20131013
+EN work/LedInterface 1679611715 \
+      FL /home/ise/Documents/Ld4Ld0InterfaceProj/LedInterface.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LedInterface/Behavioral 1679611716 \
+      FL /home/ise/Documents/Ld4Ld0InterfaceProj/LedInterface.vhd \
+      EN work/LedInterface 1679611715

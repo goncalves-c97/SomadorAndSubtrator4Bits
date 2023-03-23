@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Documents/Ld4Ld0InterfaceProj/LedInterface.xst" -ofn "/home/ise/Documents/Ld4Ld0InterfaceProj/LedInterface.syr" 
