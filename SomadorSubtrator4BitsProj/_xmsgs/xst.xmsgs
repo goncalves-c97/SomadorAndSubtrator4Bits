@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">120</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">4</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">reg1_mux</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">4</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">reg2_mux</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">DISP_CTRL</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">DISP_CTRL</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">160</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">DISP_SUPPLY</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">160</arg>. <arg fmt="%s" index="3">DISP_SUPPLY</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="851" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">154</arg>. Formal <arg fmt="%s" index="3">SEL</arg> of <arg fmt="%s" index="4">decoder7seg</arg> with no default value must be associated with an actual value.
+</msg>
+
+</messages>
+
