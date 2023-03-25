@@ -5,25 +5,13 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">120</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">4</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">reg1_mux</arg>.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">reg2_mux</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">4</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">reg2_mux</arg>.
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">reg3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">DISP_CTRL</arg>&apos;.
-</msg>
-
-<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">DISP_CTRL</arg>: Undefined symbol (last report in this block)
-</msg>
-
-<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">160</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">DISP_SUPPLY</arg>&apos;.
-</msg>
-
-<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">160</arg>. <arg fmt="%s" index="3">DISP_SUPPLY</arg>: Undefined symbol (last report in this block)
-</msg>
-
-<msg type="error" file="HDLParsers" num="851" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot; Line <arg fmt="%d" index="2">154</arg>. Formal <arg fmt="%s" index="3">SEL</arg> of <arg fmt="%s" index="4">decoder7seg</arg> with no default value must be associated with an actual value.
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">reg3/OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">somadorSubtrator4bits</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 </messages>

@@ -1,1 +1,8 @@
+vhdl work "subtrator4bits.vhd"
+vhdl work "somador4bits.vhd"
+vhdl work "reg8bits.vhd"
+vhdl work "reg4bits.vhd"
+vhdl work "mux2x8.vhd"
+vhdl work "LedInterface.vhd"
+vhdl work "decoder7seg.vhd"
 vhdl work "somadorSubtrator4bits.vhd"

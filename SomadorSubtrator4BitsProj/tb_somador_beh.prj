@@ -1,0 +1,2 @@
+vhdl work "somador4bits.vhd"
+vhdl work "tb_somador.vhd"

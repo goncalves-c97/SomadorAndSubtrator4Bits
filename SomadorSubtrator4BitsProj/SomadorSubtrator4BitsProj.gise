@@ -22,61 +22,220 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="SomadorSubtrator4BitsProj.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="somadorSubtrator4bits.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="somadorSubtrator4bits.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="somadorSubtrator4bits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="somadorSubtrator4bits.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="somadorSubtrator4bits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="somadorSubtrator4bits.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="somadorSubtrator4bits.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="somadorSubtrator4bits.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="somadorSubtrator4bits.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="somadorSubtrator4bits.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somadorSubtrator4bits.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="somadorSubtrator4bits.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="somadorSubtrator4bits.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="somadorSubtrator4bits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="somadorSubtrator4bits.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="somadorSubtrator4bits.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="somadorSubtrator4bits.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="somadorSubtrator4bits.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="somadorSubtrator4bits.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="somadorSubtrator4bits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="somadorSubtrator4bits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="somadorSubtrator4bits_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="somadorSubtrator4bits_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="somadorSubtrator4bits_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="somadorSubtrator4bits_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="somadorSubtrator4bits_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="somadorSubtrator4bits_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="somadorSubtrator4bits_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="somadorSubtrator4bits_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="somadorSubtrator4bits_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="somadorSubtrator4bits_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somadorSubtrator4bits_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="somadorSubtrator4bits_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="somadorSubtrator4bits_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="somadorSubtrator4bits_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="somadorSubtrator4bits_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="somadorSubtrator4bits_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_registrador8bits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_registrador8bits_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_somador_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_somador_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_somador_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1679700909">
+    <transform xil_pn:end_ts="1679708448" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1679708448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6869027838080270278" xil_pn:start_ts="1679700909">
+    <transform xil_pn:end_ts="1679708448" xil_pn:in_ck="-625124623513821065" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1679708448">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LedInterface.vhd"/>
+      <outfile xil_pn:name="decoder7seg.vhd"/>
+      <outfile xil_pn:name="mux2x8.vhd"/>
+      <outfile xil_pn:name="reg4bits.vhd"/>
+      <outfile xil_pn:name="reg8bits.vhd"/>
+      <outfile xil_pn:name="somador4bits.vhd"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.vhd"/>
+      <outfile xil_pn:name="subtrator4bits.vhd"/>
+      <outfile xil_pn:name="tb_registrador8bits.vhd"/>
+      <outfile xil_pn:name="tb_somador.vhd"/>
+      <outfile xil_pn:name="tb_somadorSubtrator4bits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679708448" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1182332712219216768" xil_pn:start_ts="1679708448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8581800031136295345" xil_pn:start_ts="1679700909">
+    <transform xil_pn:end_ts="1679708448" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7360821702674924162" xil_pn:start_ts="1679708448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1679700909">
+    <transform xil_pn:end_ts="1679708448" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8581800031136295345" xil_pn:start_ts="1679708448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8071151967101055428" xil_pn:start_ts="1679700909">
+    <transform xil_pn:end_ts="1679708448" xil_pn:in_ck="-625124623513821065" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1679708448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LedInterface.vhd"/>
+      <outfile xil_pn:name="decoder7seg.vhd"/>
+      <outfile xil_pn:name="mux2x8.vhd"/>
+      <outfile xil_pn:name="reg4bits.vhd"/>
+      <outfile xil_pn:name="reg8bits.vhd"/>
+      <outfile xil_pn:name="somador4bits.vhd"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.vhd"/>
+      <outfile xil_pn:name="subtrator4bits.vhd"/>
+      <outfile xil_pn:name="tb_registrador8bits.vhd"/>
+      <outfile xil_pn:name="tb_somador.vhd"/>
+      <outfile xil_pn:name="tb_somadorSubtrator4bits.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1679700909">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1679700909" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7676221769391754521" xil_pn:start_ts="1679700909">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1679700930" xil_pn:in_ck="-1413760462037279919" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4721518934025153644" xil_pn:start_ts="1679700928">
+    <transform xil_pn:end_ts="1679708450" xil_pn:in_ck="-625124623513821065" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="33537971468715490" xil_pn:start_ts="1679708448">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679708347" xil_pn:in_ck="-3120723504616772931" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-684194729254563409" xil_pn:start_ts="1679708347">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="tb_somador_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6869027838080270278" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8581800031136295345" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8071151967101055428" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704990" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7676221769391754521" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679704994" xil_pn:in_ck="6589742029218469442" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4721518934025153644" xil_pn:start_ts="1679704990">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="somadorSubtrator4bits.lso"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.ngc"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.ngr"/>
       <outfile xil_pn:name="somadorSubtrator4bits.prj"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.stx"/>
       <outfile xil_pn:name="somadorSubtrator4bits.syr"/>
       <outfile xil_pn:name="somadorSubtrator4bits.xst"/>
       <outfile xil_pn:name="somadorSubtrator4bits_vhdl.prj"/>
       <outfile xil_pn:name="somadorSubtrator4bits_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1679705402" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3354274449434078585" xil_pn:start_ts="1679705402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679705405" xil_pn:in_ck="-1413760462037288665" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-776906830455385796" xil_pn:start_ts="1679705402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.bld"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.ngd"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1679705409" xil_pn:in_ck="-1413760462037288664" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1679705405">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.pcf"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_map.map"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_map.mrp"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_map.ncd"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_map.ngm"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_map.xrpt"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_summary.xml"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1679705415" xil_pn:in_ck="-2098782249179440063" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1679705409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.ncd"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.pad"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.par"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.ptwx"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.unroutes"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.xpi"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_pad.csv"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_pad.txt"/>
+      <outfile xil_pn:name="somadorSubtrator4bits_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1679705415" xil_pn:in_ck="-1413760462037288796" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1679705413">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.twr"/>
+      <outfile xil_pn:name="somadorSubtrator4bits.twx"/>
     </transform>
   </transforms>
 

@@ -1,9 +1,60 @@
-V3 7
-FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd 2023/03/24.20:35:28 P.20131013
-EN work/somadorSubtrator4bits 0 \
+V3 31
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd 2023/03/11.14:07:42 P.20131013
+EN work/decoder7seg 1679705001 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder7seg/Behavioral 1679705002 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd \
+      EN work/decoder7seg 1679705001
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd 2023/03/24.19:10:39 P.20131013
+EN work/LedInterface 1679705003 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LedInterface/Behavioral 1679705004 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd \
+      EN work/LedInterface 1679705003
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd 2023/03/24.19:10:39 P.20131013
+EN work/mux2x8 1679704997 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2x8/Behavioral 1679704998 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd \
+      EN work/mux2x8 1679704997
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd 2023/03/24.20:27:26 P.20131013
+EN work/reg4bits 1679704991 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg4bits/Behavioral 1679704992 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd \
+      EN work/reg4bits 1679704991
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd 2023/03/24.19:10:39 P.20131013
+EN work/reg8bits 1679704999 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg8bits/Behavioral 1679705000 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd \
+      EN work/reg8bits 1679704999
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd 2023/03/24.20:06:38 P.20131013
+EN work/somador4bits 1679704993 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/somador4bits/Behavioral 1679704994 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd \
+      EN work/somador4bits 1679704993
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd 2023/03/24.21:38:45 P.20131013
+EN work/somadorSubtrator4bits 1679705005 \
       FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/somadorSubtrator4bits/Behavioral 0 \
+AR work/somadorSubtrator4bits/Behavioral 1679705006 \
       FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd \
-      EN work/somadorSubtrator4bits 0 CP reg4bits CP reg8bits CP mux2x8 \
-      CP decoder7seg
+      EN work/somadorSubtrator4bits 1679705005 CP reg4bits CP somador4bits \
+      CP subtrator4bits CP mux2x8 CP reg8bits CP decoder7seg CP LedInterface
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd 2023/03/24.20:12:02 P.20131013
+EN work/subtrator4bits 1679704995 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/subtrator4bits/Behavioral 1679704996 \
+      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd \
+      EN work/subtrator4bits 1679704995

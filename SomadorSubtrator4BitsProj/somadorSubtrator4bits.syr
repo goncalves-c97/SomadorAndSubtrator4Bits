@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: somadorSubtrator4bits.prj
@@ -104,20 +104,390 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd" in Library work.
+Entity <reg4bits> compiled.
+Entity <reg4bits> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" in Library work.
+Entity <somador4bits> compiled.
+Entity <somador4bits> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd" in Library work.
+Entity <subtrator4bits> compiled.
+Entity <subtrator4bits> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd" in Library work.
+Entity <mux2x8> compiled.
+Entity <mux2x8> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd" in Library work.
+Entity <reg8bits> compiled.
+Entity <reg8bits> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd" in Library work.
+Entity <decoder7seg> compiled.
+Entity <decoder7seg> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd" in Library work.
+Entity <LedInterface> compiled.
+Entity <LedInterface> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" in Library work.
-Entity <somadorSubtrator4bits> compiled.
-ERROR:HDLParsers:837 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 120. Width mismatch. Expected width 4, Actual width is 8 for dimension 1 of reg1_mux.
-ERROR:HDLParsers:837 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 130. Width mismatch. Expected width 4, Actual width is 8 for dimension 1 of reg2_mux.
-ERROR:HDLParsers:3312 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 158. Undefined symbol 'DISP_CTRL'.
-ERROR:HDLParsers:1209 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 158. DISP_CTRL: Undefined symbol (last report in this block)
-ERROR:HDLParsers:3312 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 160. Undefined symbol 'DISP_SUPPLY'.
-ERROR:HDLParsers:1209 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 160. DISP_SUPPLY: Undefined symbol (last report in this block)
-ERROR:HDLParsers:851 - "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" Line 154. Formal SEL of decoder7seg with no default value must be associated with an actual value.
+Architecture behavioral of Entity somadorsubtrator4bits is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <somadorSubtrator4bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reg4bits> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <somador4bits> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <subtrator4bits> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <mux2x8> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <reg8bits> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <decoder7seg> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LedInterface> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <somadorSubtrator4bits> in library <work> (Architecture <behavioral>).
+Entity <somadorSubtrator4bits> analyzed. Unit <somadorSubtrator4bits> generated.
+
+Analyzing Entity <reg4bits> in library <work> (Architecture <Behavioral>).
+Entity <reg4bits> analyzed. Unit <reg4bits> generated.
+
+Analyzing Entity <somador4bits> in library <work> (Architecture <Behavioral>).
+Entity <somador4bits> analyzed. Unit <somador4bits> generated.
+
+Analyzing Entity <subtrator4bits> in library <work> (Architecture <Behavioral>).
+Entity <subtrator4bits> analyzed. Unit <subtrator4bits> generated.
+
+Analyzing Entity <mux2x8> in library <work> (Architecture <Behavioral>).
+Entity <mux2x8> analyzed. Unit <mux2x8> generated.
+
+Analyzing Entity <reg8bits> in library <work> (Architecture <Behavioral>).
+Entity <reg8bits> analyzed. Unit <reg8bits> generated.
+
+Analyzing Entity <decoder7seg> in library <work> (Architecture <Behavioral>).
+Entity <decoder7seg> analyzed. Unit <decoder7seg> generated.
+
+Analyzing Entity <LedInterface> in library <work> (Architecture <Behavioral>).
+Entity <LedInterface> analyzed. Unit <LedInterface> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <reg4bits>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd".
+    Found 4-bit register for signal <OUTPUT>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <reg4bits> synthesized.
+
+
+Synthesizing Unit <somador4bits>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd".
+    Found 4-bit comparator greater for signal <CARRY$cmp_gt0000> created at line 37.
+    Found 4-bit adder for signal <TEMP_SUM>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <somador4bits> synthesized.
+
+
+Synthesizing Unit <subtrator4bits>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd".
+    Found 4-bit comparator less for signal <NEGATIVE$cmp_lt0000> created at line 38.
+    Found 4-bit subtractor for signal <TEMP_SUB>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <subtrator4bits> synthesized.
+
+
+Synthesizing Unit <mux2x8>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd".
+Unit <mux2x8> synthesized.
+
+
+Synthesizing Unit <reg8bits>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd".
+    Found 8-bit register for signal <OUTPUT>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <reg8bits> synthesized.
+
+
+Synthesizing Unit <decoder7seg>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd".
+    Found 16x7-bit ROM for signal <OUTPUT>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <decoder7seg> synthesized.
+
+
+Synthesizing Unit <LedInterface>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd".
+    Found 16x4-bit ROM for signal <DISP>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <LedInterface> synthesized.
+
+
+Synthesizing Unit <somadorSubtrator4bits>.
+    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd".
+WARNING:Xst:1780 - Signal <reg2_mux> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <somadorSubtrator4bits> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x4-bit ROM                                          : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 3
+ 4-bit register                                        : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <OUTPUT_5> (without init value) has a constant value of 0 in block <reg3>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x4-bit ROM                                          : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <somadorSubtrator4bits> ...
+
+Optimizing unit <reg8bits> ...
+WARNING:Xst:1710 - FF/Latch <reg3/OUTPUT_5> (without init value) has a constant value of 0 in block <somadorSubtrator4bits>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block somadorSubtrator4bits, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : somadorSubtrator4bits.ngr
+Top Level Output File Name         : somadorSubtrator4bits
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 33
+#      GND                         : 1
+#      LUT2                        : 4
+#      LUT2_L                      : 1
+#      LUT3                        : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 17
+#      LUT4_D                      : 1
+#      LUT4_L                      : 3
+#      MUXF5                       : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 15
+#      FDRE                        : 15
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 9
+#      OBUF                        : 15
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       16  out of    960     1%  
+ Number of Slice Flip Flops:             15  out of   1920     0%  
+ Number of 4 input LUTs:                 30  out of   1920     1%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of     83    30%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.418ns (Maximum Frequency: 184.570MHz)
+   Minimum input arrival time before clock: 4.593ns
+   Maximum output required time after clock: 5.870ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.418ns (frequency: 184.570MHz)
+  Total number of paths / destination ports: 83 / 7
+-------------------------------------------------------------------------
+Delay:               5.418ns (Levels of Logic = 4)
+  Source:            reg2/OUTPUT_3 (FF)
+  Destination:       reg3/OUTPUT_6 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: reg2/OUTPUT_3 to reg3/OUTPUT_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.591   0.622  reg2/OUTPUT_3 (reg2/OUTPUT_3)
+     LUT2:I0->O            2   0.704   0.526  subtrator1/Msub_TEMP_SUB_cy<2>11_SW0 (N22)
+     LUT4:I1->O            2   0.704   0.451  subtrator1/Msub_TEMP_SUB_xor<3>11 (sub_mux<3>)
+     LUT4_L:I3->LO         1   0.704   0.104  mux1/S<6>_SW1 (N20)
+     LUT4:I3->O            1   0.704   0.000  mux1/S<6> (mux_reg3<6>)
+     FDRE:D                    0.308          reg3/OUTPUT_6
+    ----------------------------------------
+    Total                      5.418ns (3.715ns logic, 1.703ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 45 / 44
+-------------------------------------------------------------------------
+Offset:              4.593ns (Levels of Logic = 4)
+  Source:            SEL (PAD)
+  Destination:       reg3/OUTPUT_2 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: SEL to reg3/OUTPUT_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.218   0.883  SEL_IBUF (SEL_IBUF)
+     LUT4:I0->O            1   0.704   0.000  mux1/S<2>1_SW0_F (N42)
+     MUXF5:I0->O           1   0.321   0.455  mux1/S<2>1_SW0 (N40)
+     LUT3:I2->O            1   0.704   0.000  mux1/S<2>1 (mux_reg3<2>)
+     FDRE:D                    0.308          reg3/OUTPUT_2
+    ----------------------------------------
+    Total                      4.593ns (3.255ns logic, 1.338ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 31 / 10
+-------------------------------------------------------------------------
+Offset:              5.870ns (Levels of Logic = 2)
+  Source:            reg3/OUTPUT_1 (FF)
+  Destination:       OUTPUT<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: reg3/OUTPUT_1 to OUTPUT<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             7   0.591   0.883  reg3/OUTPUT_1 (reg3/OUTPUT_1)
+     LUT4:I0->O            1   0.704   0.420  decoder1/Mrom_OUTPUT41 (OUTPUT_4_OBUF)
+     OBUF:I->O                 3.272          OUTPUT_4_OBUF (OUTPUT<4>)
+    ----------------------------------------
+    Total                      5.870ns (4.567ns logic, 1.303ns route)
+                                       (77.8% logic, 22.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.97 secs
+ 
 --> 
 
-Total memory usage is 222844 kilobytes
+Total memory usage is 232296 kilobytes
 
-Number of errors   :    7 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

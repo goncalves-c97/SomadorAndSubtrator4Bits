@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_isim_beh.exe -prj C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_beh.prj work.tb_somador 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" into library work
+Parsing VHDL file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160940 KB
+Fuse CPU Usage: 124 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling architecture behavioral of entity somador4bits [somador4bits_default]
+Compiling architecture behavior of entity tb_somador
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:861 - Failed to link the design
