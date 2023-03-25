@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-03-24T20:03:47</DateModified>
+  <DateModified>2023-03-25T13:25:34</DateModified>
   <ModuleName>somador4bits</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorProj/iseconfig/somador4bits.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorProj\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2023-03-25T12:13:51</SummaryTimeStamp>
+  <SavedFilePath>/home/ise/Documents/SomadorSubtrator4Bits/SomadorProj/iseconfig/somador4bits.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/Documents/SomadorSubtrator4Bits/SomadorProj/</ImplementationReportsDirectory>
   <DateInitialized>2023-03-24T19:54:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

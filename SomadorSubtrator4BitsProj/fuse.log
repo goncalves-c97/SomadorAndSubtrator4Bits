@@ -1,20 +1,38 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_isim_beh.exe -prj C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_beh.prj work.tb_somador 
-ISim P.20131013 (signature 0x8ef4fb42)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_isim_beh.exe -prj /home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_beh.prj work.tb_somadorSubtrator4bits 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" into library work
-Parsing VHDL file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/../SubtratorProj/subtrator4bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 160940 KB
-Fuse CPU Usage: 124 ms
+Fuse Memory Usage: 98408 KB
+Fuse CPU Usage: 1420 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_signed
 Compiling package numeric_std
+Compiling architecture behavioral of entity reg4bits [reg4bits_default]
 Compiling architecture behavioral of entity somador4bits [somador4bits_default]
-Compiling architecture behavior of entity tb_somador
+Compiling architecture behavioral of entity subtrator4bits [subtrator4bits_default]
+Compiling architecture behavioral of entity mux2x8 [mux2x8_default]
+Compiling architecture behavioral of entity reg8bits [reg8bits_default]
+Compiling architecture behavioral of entity decoder7seg [decoder7seg_default]
+Compiling architecture behavioral of entity LedInterface [ledinterface_default]
+Compiling architecture behavioral of entity somadorSubtrator4bits [somadorsubtrator4bits_default]
+Compiling architecture behavior of entity tb_somadorsubtrator4bits
 Time Resolution for simulation is 1ps.
-ERROR:Simulator:861 - Failed to link the design
+Compiled 22 VHDL Units
+Built simulation executable /home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_isim_beh.exe
+Fuse Memory Usage: 117388 KB
+Fuse CPU Usage: 1690 ms
+GCC CPU Usage: 440 ms

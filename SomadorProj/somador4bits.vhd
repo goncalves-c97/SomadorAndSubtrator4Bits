@@ -2,7 +2,7 @@
 -- Company: Faculdade Engenheiro Salvador Arena
 --
 -- Engineers: Carlos Adonias
---			  	  Carlos Gonçalves
+--			  	  Carlos Gonalves
 --			 	  Gabriel Teixeira
 -- 		 	  Johnny Messias
 --
@@ -16,7 +16,6 @@ use IEEE.NUMERIC_STD.all;
 
 entity somador4bits is
     port (A, B: in STD_LOGIC_VECTOR(3 downto 0);
-          -- CARRY_IN: in STD_LOGIC_VECTOR;
           SOMA: out STD_LOGIC_VECTOR(3 downto 0);
           CARRY: out STD_LOGIC;
 			 OVERFLOW: out STD_LOGIC;
@@ -26,28 +25,17 @@ end entity somador4bits;
 
 architecture Behavioral of somador4bits is
 
-signal TEMP_SUM   : STD_LOGIC_VECTOR(3 downto 0);
+signal TEMP_SUM   : STD_LOGIC_VECTOR(4 downto 0); -- Varivel para guardar a soma + o carry
 
 begin
-    process(A, B)
-    begin
-        TEMP_SUM <= A + B;
-		  SOMA <= TEMP_SUM;
-		  
-		  if TEMP_SUM > "1111" then
-				CARRY <= '1';
-		  else 
-				CARRY <= '0';
-		  end if;
-		  
-		  if TEMP_SUM = 0 then
-				ZERO <= '1';
-		  else
-				ZERO <= '0';
-		  end if;
-		  
+        TEMP_SUM <= ('0' & A) + ('0' & B); -- "Converte" A e B para 5 bits e realiza a soma
+		  SOMA(0) <= TEMP_SUM(0); -- Registra o resultado da soma no somador
+		  SOMA(1) <= TEMP_SUM(1); --
+		  SOMA(2) <= TEMP_SUM(2); --
+		  SOMA(3) <= TEMP_SUM(3); --
+		  CARRY <= TEMP_SUM(4); -- 5 bit da varivel indica o carry
+		  ZERO <= '1' WHEN TEMP_SUM = "00000" ELSE '0';
 		  OVERFLOW <= '0';
 		  NEGATIVE <= '0';
 		  
-    end process;
 end architecture Behavioral;

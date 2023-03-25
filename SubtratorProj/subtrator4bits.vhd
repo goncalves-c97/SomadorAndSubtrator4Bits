@@ -2,7 +2,7 @@
 -- Company: Faculdade Engenheiro Salvador Arena
 --
 -- Engineers: Carlos Adonias
---			  	  Carlos Gon�alves
+--			  	  Carlos Gonalves
 --			 	  Gabriel Teixeira
 -- 		 	  Johnny Messias
 --
@@ -27,27 +27,13 @@ end entity subtrator4bits;
 
 architecture Behavioral of subtrator4bits is
 
-signal TEMP_SUB : STD_LOGIC_VECTOR(3 downto 0);
+signal TEMP_SUB : STD_LOGIC_VECTOR(3 downto 0); -- Variável para guardar a subtração
 
 begin
-    process(A, B)
-    begin
-        TEMP_SUB <= A - B;
-		  SUB <= TEMP_SUB;
-		  
-		  if A < B  then
-				NEGATIVE <= '1';
-		  else 
-				NEGATIVE <= '0';
-		  end if;
-		  
-		  if TEMP_SUB = 0 then
-				ZERO <= '1';
-		  else
-				ZERO <= '0';
-		  end if;
-		  
+	     TEMP_SUB <= A - B; -- Realiza a subtração
+		  SUB <= TEMP_SUB;   -- Registra o resultado no subtrator
+		  NEGATIVE <= '1' WHEN (UNSIGNED(A) < UNSIGNED(B)) ELSE '0'; -- O negativo acontece quando A for menor que B
+		  ZERO <= '1' WHEN TEMP_SUB = "0000" ELSE '0';
 		  OVERFLOW <= '0';
 		  CARRY <= '0';
-    end process;
 end architecture Behavioral;

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="tb_somadorsubtrator4bits" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_somadorsubtrator4bits/input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input[3:0]</obj_property>
+      <obj_property name="ObjectShortName">input[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aa55ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaaaff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/en1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en1</obj_property>
+      <obj_property name="ObjectShortName">en1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg1/output" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output[3:0]</obj_property>
+      <obj_property name="label">reg1[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/en2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en2</obj_property>
+      <obj_property name="ObjectShortName">en2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg2/output" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output[3:0]</obj_property>
+      <obj_property name="label">reg2[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">e0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e0[7:0]</obj_property>
+      <obj_property name="label">soma_mux[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffb590</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[7]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">e0[7]</obj_property>
+         <obj_property name="label">negative[7]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[6]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">e0[6]</obj_property>
+         <obj_property name="label">zero[6]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[5]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">e0[5]</obj_property>
+         <obj_property name="label">overflow[5]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[4]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">e0[4]</obj_property>
+         <obj_property name="label">carry[4]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">e0[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">e0[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">e0[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">e0[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus63" type="vbus" db_ref_id="1">
+      <obj_property name="label">res_soma</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffb590</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">e0[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">e0[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">e0[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">e0[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus58" type="vbus" db_ref_id="1">
+      <obj_property name="label">flags_soma</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffb590</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[7]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">e0[7]</obj_property>
+         <obj_property name="label">negative[7]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[6]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">e0[6]</obj_property>
+         <obj_property name="label">zero[6]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[5]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">e0[5]</obj_property>
+         <obj_property name="label">overflow[5]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e0[4]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">e0[4]</obj_property>
+         <obj_property name="label">carry[4]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">e1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e1[7:0]</obj_property>
+      <obj_property name="label">sub_mux[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus69" type="vbus" db_ref_id="1">
+      <obj_property name="label">res_sub</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">e1[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">e1[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">e1[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">e1[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus74" type="vbus" db_ref_id="1">
+      <obj_property name="label">flags_sub</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[7]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">e1[7]</obj_property>
+         <obj_property name="label">negative[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[6]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">e1[6]</obj_property>
+         <obj_property name="label">zero[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[5]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">e1[5]</obj_property>
+         <obj_property name="label">overflow[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/e1[4]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">e1[4]</obj_property>
+         <obj_property name="label">carry[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/sel" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+      <obj_property name="label">operador_mux</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/mux1/s" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+      <obj_property name="label">saida_mux[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#f895ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/en3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en3</obj_property>
+      <obj_property name="ObjectShortName">en3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+      <obj_property name="label">reg3[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus59" type="vbus" db_ref_id="1">
+      <obj_property name="label">decoderInput</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[3]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">output[3]</obj_property>
+         <obj_property name="label">input[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[2]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">output[2]</obj_property>
+         <obj_property name="label">input[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[1]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">output[1]</obj_property>
+         <obj_property name="label">input[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[0]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">output[0]</obj_property>
+         <obj_property name="label">input[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/output" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[6:0]</obj_property>
+      <obj_property name="ObjectShortName">output[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">7SegOutput[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus58" type="vbus" db_ref_id="1">
+      <obj_property name="label">driverLedInput</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[7]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">output[7]</obj_property>
+         <obj_property name="label">input[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[6]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">output[6]</obj_property>
+         <obj_property name="label">input[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[5]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">output[5]</obj_property>
+         <obj_property name="label">input[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/uut/reg3/output[4]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">output[4]</obj_property>
+         <obj_property name="label">input[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_somadorsubtrator4bits/flag_output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flag_output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flag_output[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaff00</obj_property>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/flag_output[3]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">flag_output[3]</obj_property>
+         <obj_property name="label">negative[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/flag_output[2]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">flag_output[2]</obj_property>
+         <obj_property name="label">zero[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/flag_output[1]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">flag_output[1]</obj_property>
+         <obj_property name="label">overflow[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_somadorsubtrator4bits/flag_output[0]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">flag_output[0]</obj_property>
+         <obj_property name="label">carry[0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,18 +1,21 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to xst/projnav.tmp
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
---> Parameter xsthdpdir set to xst
+--> 
+Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
---> Reading design: somadorSubtrator4bits.prj
+--> 
+Reading design: somadorSubtrator4bits.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -104,28 +107,39 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd" in Library work.
-Entity <reg4bits> compiled.
-Entity <reg4bits> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/somadorSubtrator4bits is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/somadorSubtrator4bits/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/decoder7seg is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd".
+WARNING:HDLParsers:3607 - Unit work/decoder7seg/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd".
+WARNING:HDLParsers:3607 - Unit work/LedInterface is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd".
+WARNING:HDLParsers:3607 - Unit work/LedInterface/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux2x8 is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux2x8/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg4bits is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg4bits/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg8bits is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg8bits/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/somador4bits is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/somador4bits/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/subtrator4bits is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/subtrator4bits/Behavioral is now defined in a different file.  It was defined in "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd", and is now defined in "/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd".
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd" in Library work.
+Architecture behavioral of Entity reg4bits is up to date.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd" in Library work.
 Entity <somador4bits> compiled.
-Entity <somador4bits> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd" in Library work.
+Entity <somador4bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd" in Library work.
 Entity <subtrator4bits> compiled.
-Entity <subtrator4bits> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd" in Library work.
-Entity <mux2x8> compiled.
-Entity <mux2x8> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd" in Library work.
-Entity <reg8bits> compiled.
-Entity <reg8bits> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd" in Library work.
-Entity <decoder7seg> compiled.
-Entity <decoder7seg> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd" in Library work.
-Entity <LedInterface> compiled.
-Entity <LedInterface> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" in Library work.
+Entity <subtrator4bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd" in Library work.
+Architecture behavioral of Entity mux2x8 is up to date.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd" in Library work.
+Architecture behavioral of Entity reg8bits is up to date.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd" in Library work.
+Architecture behavioral of Entity decoder7seg is up to date.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd" in Library work.
+Architecture behavioral of Entity ledinterface is up to date.
+Compiling vhdl file "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd" in Library work.
 Architecture behavioral of Entity somadorsubtrator4bits is up to date.
 
 =========================================================================
@@ -133,19 +147,19 @@ Architecture behavioral of Entity somadorsubtrator4bits is up to date.
 =========================================================================
 Analyzing hierarchy for entity <somadorSubtrator4bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <reg4bits> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <reg4bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <somador4bits> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <somador4bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <subtrator4bits> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <subtrator4bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <mux2x8> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <mux2x8> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <reg8bits> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <reg8bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <decoder7seg> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <decoder7seg> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <LedInterface> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <LedInterface> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
@@ -154,25 +168,25 @@ Analyzing hierarchy for entity <LedInterface> in library <work> (architecture <B
 Analyzing Entity <somadorSubtrator4bits> in library <work> (Architecture <behavioral>).
 Entity <somadorSubtrator4bits> analyzed. Unit <somadorSubtrator4bits> generated.
 
-Analyzing Entity <reg4bits> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <reg4bits> in library <work> (Architecture <behavioral>).
 Entity <reg4bits> analyzed. Unit <reg4bits> generated.
 
-Analyzing Entity <somador4bits> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <somador4bits> in library <work> (Architecture <behavioral>).
 Entity <somador4bits> analyzed. Unit <somador4bits> generated.
 
-Analyzing Entity <subtrator4bits> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <subtrator4bits> in library <work> (Architecture <behavioral>).
 Entity <subtrator4bits> analyzed. Unit <subtrator4bits> generated.
 
-Analyzing Entity <mux2x8> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <mux2x8> in library <work> (Architecture <behavioral>).
 Entity <mux2x8> analyzed. Unit <mux2x8> generated.
 
-Analyzing Entity <reg8bits> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <reg8bits> in library <work> (Architecture <behavioral>).
 Entity <reg8bits> analyzed. Unit <reg8bits> generated.
 
-Analyzing Entity <decoder7seg> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <decoder7seg> in library <work> (Architecture <behavioral>).
 Entity <decoder7seg> analyzed. Unit <decoder7seg> generated.
 
-Analyzing Entity <LedInterface> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <LedInterface> in library <work> (Architecture <behavioral>).
 Entity <LedInterface> analyzed. Unit <LedInterface> generated.
 
 
@@ -183,7 +197,7 @@ Entity <LedInterface> analyzed. Unit <LedInterface> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <reg4bits>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd".
     Found 4-bit register for signal <OUTPUT>.
     Summary:
 	inferred   4 D-type flip-flop(s).
@@ -191,18 +205,16 @@ Unit <reg4bits> synthesized.
 
 
 Synthesizing Unit <somador4bits>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd".
-    Found 4-bit comparator greater for signal <CARRY$cmp_gt0000> created at line 37.
-    Found 4-bit adder for signal <TEMP_SUM>.
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd".
+    Found 5-bit adder for signal <TEMP_SUM>.
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred   1 Comparator(s).
 Unit <somador4bits> synthesized.
 
 
 Synthesizing Unit <subtrator4bits>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd".
-    Found 4-bit comparator less for signal <NEGATIVE$cmp_lt0000> created at line 38.
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd".
+    Found 4-bit comparator less for signal <NEGATIVE$cmp_lt0000> created at line 35.
     Found 4-bit subtractor for signal <TEMP_SUB>.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -211,12 +223,12 @@ Unit <subtrator4bits> synthesized.
 
 
 Synthesizing Unit <mux2x8>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd".
 Unit <mux2x8> synthesized.
 
 
 Synthesizing Unit <reg8bits>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd".
     Found 8-bit register for signal <OUTPUT>.
     Summary:
 	inferred   8 D-type flip-flop(s).
@@ -224,7 +236,7 @@ Unit <reg8bits> synthesized.
 
 
 Synthesizing Unit <decoder7seg>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd".
     Found 16x7-bit ROM for signal <OUTPUT>.
     Summary:
 	inferred   1 ROM(s).
@@ -232,7 +244,7 @@ Unit <decoder7seg> synthesized.
 
 
 Synthesizing Unit <LedInterface>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd".
     Found 16x4-bit ROM for signal <DISP>.
     Summary:
 	inferred   1 ROM(s).
@@ -240,7 +252,7 @@ Unit <LedInterface> synthesized.
 
 
 Synthesizing Unit <somadorSubtrator4bits>.
-    Related source file is "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd".
+    Related source file is "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd".
 WARNING:Xst:1780 - Signal <reg2_mux> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 Unit <somadorSubtrator4bits> synthesized.
 
@@ -253,13 +265,12 @@ Macro Statistics
  16x4-bit ROM                                          : 1
  16x7-bit ROM                                          : 1
 # Adders/Subtractors                                   : 2
- 4-bit adder                                           : 1
  4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
 # Registers                                            : 3
  4-bit register                                        : 2
  8-bit register                                        : 1
-# Comparators                                          : 2
- 4-bit comparator greater                              : 1
+# Comparators                                          : 1
  4-bit comparator less                                 : 1
 
 =========================================================================
@@ -278,12 +289,11 @@ Macro Statistics
  16x4-bit ROM                                          : 1
  16x7-bit ROM                                          : 1
 # Adders/Subtractors                                   : 2
- 4-bit adder                                           : 1
  4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
 # Registers                                            : 16
  Flip-Flops                                            : 16
-# Comparators                                          : 2
- 4-bit comparator greater                              : 1
+# Comparators                                          : 1
  4-bit comparator less                                 : 1
 
 =========================================================================
@@ -339,13 +349,11 @@ Design Statistics
 Cell Usage :
 # BELS                             : 33
 #      GND                         : 1
-#      LUT2                        : 4
-#      LUT2_L                      : 1
-#      LUT3                        : 3
-#      LUT3_L                      : 1
-#      LUT4                        : 17
-#      LUT4_D                      : 1
-#      LUT4_L                      : 3
+#      LUT2                        : 2
+#      LUT2_D                      : 1
+#      LUT2_L                      : 2
+#      LUT4                        : 21
+#      LUT4_L                      : 4
 #      MUXF5                       : 1
 #      VCC                         : 1
 # FlipFlops/Latches                : 15
@@ -401,8 +409,8 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 5.418ns (Maximum Frequency: 184.570MHz)
-   Minimum input arrival time before clock: 4.593ns
+   Minimum period: 4.422ns (Maximum Frequency: 226.142MHz)
+   Minimum input arrival time before clock: 4.145ns
    Maximum output required time after clock: 5.870ns
    Maximum combinational path delay: No path found
 
@@ -412,50 +420,48 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 5.418ns (frequency: 184.570MHz)
-  Total number of paths / destination ports: 83 / 7
+  Clock period: 4.422ns (frequency: 226.142MHz)
+  Total number of paths / destination ports: 75 / 7
 -------------------------------------------------------------------------
-Delay:               5.418ns (Levels of Logic = 4)
-  Source:            reg2/OUTPUT_3 (FF)
+Delay:               4.422ns (Levels of Logic = 3)
+  Source:            reg2/OUTPUT_1 (FF)
   Destination:       reg3/OUTPUT_6 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: reg2/OUTPUT_3 to reg3/OUTPUT_6
+  Data Path: reg2/OUTPUT_1 to reg3/OUTPUT_6
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             2   0.591   0.622  reg2/OUTPUT_3 (reg2/OUTPUT_3)
-     LUT2:I0->O            2   0.704   0.526  subtrator1/Msub_TEMP_SUB_cy<2>11_SW0 (N22)
-     LUT4:I1->O            2   0.704   0.451  subtrator1/Msub_TEMP_SUB_xor<3>11 (sub_mux<3>)
-     LUT4_L:I3->LO         1   0.704   0.104  mux1/S<6>_SW1 (N20)
-     LUT4:I3->O            1   0.704   0.000  mux1/S<6> (mux_reg3<6>)
+     FDRE:C->Q             5   0.591   0.808  reg2/OUTPUT_1 (reg2/OUTPUT_1)
+     LUT4:I0->O            1   0.704   0.424  mux1/S<6>60_SW0_SW0 (N56)
+     LUT4_L:I3->LO         1   0.704   0.179  mux1/S<6>60_SW0 (N49)
+     LUT4:I1->O            1   0.704   0.000  mux1/S<6>60 (mux_reg3<6>)
      FDRE:D                    0.308          reg3/OUTPUT_6
     ----------------------------------------
-    Total                      5.418ns (3.715ns logic, 1.703ns route)
-                                       (68.6% logic, 31.4% route)
+    Total                      4.422ns (3.011ns logic, 1.411ns route)
+                                       (68.1% logic, 31.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
   Total number of paths / destination ports: 45 / 44
 -------------------------------------------------------------------------
-Offset:              4.593ns (Levels of Logic = 4)
+Offset:              4.145ns (Levels of Logic = 3)
   Source:            SEL (PAD)
-  Destination:       reg3/OUTPUT_2 (FF)
+  Destination:       reg3/OUTPUT_6 (FF)
   Destination Clock: CLK rising
 
-  Data Path: SEL to reg3/OUTPUT_2
+  Data Path: SEL to reg3/OUTPUT_6
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             7   1.218   0.883  SEL_IBUF (SEL_IBUF)
-     LUT4:I0->O            1   0.704   0.000  mux1/S<2>1_SW0_F (N42)
-     MUXF5:I0->O           1   0.321   0.455  mux1/S<2>1_SW0 (N40)
-     LUT3:I2->O            1   0.704   0.000  mux1/S<2>1 (mux_reg3<2>)
-     FDRE:D                    0.308          reg3/OUTPUT_2
+     IBUF:I->O             7   1.218   0.787  SEL_IBUF (SEL_IBUF)
+     LUT4:I1->O            1   0.704   0.424  mux1/S<6>43 (mux1/S<6>43)
+     LUT4:I3->O            1   0.704   0.000  mux1/S<6>60 (mux_reg3<6>)
+     FDRE:D                    0.308          reg3/OUTPUT_6
     ----------------------------------------
-    Total                      4.593ns (3.255ns logic, 1.338ns route)
-                                       (70.9% logic, 29.1% route)
+    Total                      4.145ns (2.934ns logic, 1.211ns route)
+                                       (70.8% logic, 29.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
@@ -480,14 +486,15 @@ Offset:              5.870ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 1.97 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.60 secs
  
 --> 
 
-Total memory usage is 232296 kilobytes
+
+Total memory usage is 610260 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

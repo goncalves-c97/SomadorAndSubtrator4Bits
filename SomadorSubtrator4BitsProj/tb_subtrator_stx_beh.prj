@@ -1,0 +1,2 @@
+vhdl isim_temp "../SubtratorProj/subtrator4bits.vhd"
+vhdl isim_temp "tb_subtrator.vhd"

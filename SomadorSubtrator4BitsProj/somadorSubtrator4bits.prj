@@ -1,4 +1,4 @@
-vhdl work "subtrator4bits.vhd"
+vhdl work "../SubtratorProj/subtrator4bits.vhd"
 vhdl work "somador4bits.vhd"
 vhdl work "reg8bits.vhd"
 vhdl work "reg4bits.vhd"

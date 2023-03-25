@@ -2,7 +2,7 @@
 -- Company: Faculdade Engenheiro Salvador Arena
 --
 -- Engineers: Carlos Adonias
---			  	  Carlos Gon�alves
+--			  	  Carlos Gonalves
 --			 	  Gabriel Teixeira
 -- 		 	  Johnny Messias
 --
@@ -52,8 +52,7 @@ ARCHITECTURE behavior OF tb_somadorSubtrator4bits IS
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
-	constant WAIT_time : time := CLK_period * 2;
- 
+	constant WAIT_time : time := CLK_period;
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
@@ -82,20 +81,95 @@ BEGIN
 
    test_proccess: process
 	begin
+	
+		----------------------- 13 + 1 AND 13 - 1 -----------------------
+	
 		-- Limpa todos os registradores
-		CLR <= '1';
-		wait for WAIT_time;
-		CLR <= '0';
-		wait for WAIT_time;
+--		CLR <= '1';
+--		wait for WAIT_time;
+--		CLR <= '0';
+--		wait for WAIT_time;
 				
+--		-- Preenche registrador 1 com valor personalizado
+--		INPUT <= "1101"; -- 13 (D)
+--		EN1 <= '1';
+--		wait for WAIT_time;
+--		EN1 <= '0';
+--		
+--		-- Preenche registrador 2 com valor personalizado
+--		INPUT <= "0001"; -- 1 (1)
+--		EN2 <= '1';
+--		wait for WAIT_time;
+--		EN2 <= '0';
+--		
+--		-- Limpa input
+--		INPUT <= "0000";
+--		wait for WAIT_time;
+--		
+--		-- Preenche na sada o valor da soma
+--		SEL <= '0';
+--		EN3 <= '1';
+--		wait for WAIT_time;
+--		EN3 <= '0';
+--		
+--		-- Preenche na saída o valor da subtração
+--		SEL <= '1';
+--		EN3 <= '1';
+--		wait for WAIT_time;
+--		EN3 <= '0';
+		
+		-- Limpa todos os registradores
+--		CLR <= '1';
+--		wait for WAIT_time;
+--		CLR <= '0';
+--		wait for WAIT_time;
+		
+--		----------------------- 15 + 15 AND 15 - 15 -----------------------
+--		
+--		-- Preenche registrador 1 com valor personalizado
+--		INPUT <= "1111"; -- 15 (F)
+--		EN1 <= '1';
+--		wait for WAIT_time;
+--		EN1 <= '0';
+--		
+--		-- Preenche registrador 2 com valor personalizado
+--		INPUT <= "1111"; -- 15 (F)
+--		EN2 <= '1';
+--		wait for WAIT_time;
+--		EN2 <= '0';
+--		
+--		-- Limpa input
+--		INPUT <= "0000";
+--		wait for WAIT_time;
+--		
+--		-- Preenche na saída o valor da soma
+--		SEL <= '0';
+--		EN3 <= '1';
+--		wait for WAIT_time;
+--		EN3 <= '0';
+--		
+--		-- Preenche na sada o valor da subtração
+--		SEL <= '1';
+--		EN3 <= '1';
+--		wait for WAIT_time;
+--		EN3 <= '0';
+--		
+--		----------------------- 0 + 15 AND 0 - 15 -----------------------
+--		
+--		-- Limpa todos os registradores
+--		CLR <= '1';
+--		wait for WAIT_time;
+--		CLR <= '0';
+--		wait for WAIT_time;
+--		
 		-- Preenche registrador 1 com valor personalizado
-		INPUT <= "1101"; -- 13 (D)
+		INPUT <= "0000"; -- 0 (0)
 		EN1 <= '1';
 		wait for WAIT_time;
 		EN1 <= '0';
 		
 		-- Preenche registrador 2 com valor personalizado
-		INPUT <= "0001"; -- 1 (1)
+		INPUT <= "1111"; -- 15 (F)
 		EN2 <= '1';
 		wait for WAIT_time;
 		EN2 <= '0';
@@ -104,23 +178,18 @@ BEGIN
 		INPUT <= "0000";
 		wait for WAIT_time;
 		
-		-- Preenche na sa�da o valor da soma
+		-- Preenche na saída o valor da soma
 		SEL <= '0';
 		EN3 <= '1';
 		wait for WAIT_time;
 		EN3 <= '0';
 		
---		-- Preenche na sa�da o valor do registrador 2
---		SEL <= '1';
---		EN3 <= '1';
---		wait for WAIT_time;
---		EN3 <= '0';
---		
---			-- Limpa todos os registradores
---		CLR <= '1';
---		wait for WAIT_time;
---		CLR <= '0';
---		wait for WAIT_time;
+		-- Preenche na sada o valor da subtração
+		SEL <= '1';
+		EN3 <= '1';
+		wait for WAIT_time;
+		EN3 <= '0';
+		
 	end process;
 
 END;

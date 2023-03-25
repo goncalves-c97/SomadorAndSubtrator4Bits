@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/SomadorSubtrator4Bits/SomadorProj/somador4bits_isim_beh.exe" -prj "/home/ise/Documents/SomadorSubtrator4Bits/SomadorProj/somador4bits_beh.prj" "work.somador4bits" 

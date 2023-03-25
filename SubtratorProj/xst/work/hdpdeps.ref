@@ -1,9 +1,10 @@
-V3 3
-FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd 2023/03/24.20:12:02 P.20131013
-EN work/subtrator4bits 1679699523 \
-      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd \
+V3 4
+FL /home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd 2023/03/25.13:29:15 P.20131013
+EN work/subtrator4bits 1679750960 \
+      FL /home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/subtrator4bits/Behavioral 1679699524 \
-      FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd \
-      EN work/subtrator4bits 1679699523
+AR work/subtrator4bits/Behavioral 1679750961 \
+      FL /home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd \
+      EN work/subtrator4bits 1679750960
+FL C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd 2023/03/24.20:12:02 P.20131013

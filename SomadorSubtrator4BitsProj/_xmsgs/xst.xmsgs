@@ -5,13 +5,61 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/somadorSubtrator4bits</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/somadorSubtrator4bits/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/decoder7seg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/decoder7seg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LedInterface</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LedInterface/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2x8</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2x8/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg4bits</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg4bits/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg8bits</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg8bits/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/somador4bits</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/somador4bits/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/subtrator4bits</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/subtrator4bits/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/subtrator4bits.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Documents/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd</arg>&quot;.
+</msg>
+
 <msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">reg2_mux</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">reg3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">reg3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">reg3/OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">somadorSubtrator4bits</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">reg3/OUTPUT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">somadorSubtrator4bits</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 </messages>

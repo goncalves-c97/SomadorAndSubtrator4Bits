@@ -1,36 +1,16 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+----------------------------------------------------------------------------------
+-- Company: Faculdade Engenheiro Salvador Arena
 --
--- Create Date:   22:09:23 03/24/2023
--- Design Name:   
--- Module Name:   C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador.vhd
--- Project Name:  SomadorSubtrator4BitsProj
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
--- VHDL Test Bench Created by ISE for module: somador4bits
--- 
--- Dependencies:
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
+-- Engineers: Carlos Adonias
+--			  	  Carlos Gonalves
+--			 	  Gabriel Teixeira
+-- 		 	  Johnny Messias
 --
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
+-- Teacher: Filippo Valiante
+-- Create Date:   09:01:52 25/03/2023
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
- 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
  
 ENTITY tb_somador IS
 END tb_somador;
@@ -41,8 +21,8 @@ ARCHITECTURE behavior OF tb_somador IS
  
     COMPONENT somador4bits
     PORT(
-         A : IN  std_logic_vector(0 to 3);
-         B : IN  std_logic_vector(0 to 3);
+         A : IN  std_logic_vector(3 downto 0);
+         B : IN  std_logic_vector(3 downto 0);
          SOMA : OUT  std_logic_vector(3 downto 0);
          CARRY : OUT  std_logic;
          OVERFLOW : OUT  std_logic;
@@ -53,18 +33,16 @@ ARCHITECTURE behavior OF tb_somador IS
     
 
    --Inputs
-   signal A : std_logic_vector(0 to 3) := "0000";
-   signal B : std_logic_vector(0 to 3) := "0000";
+   signal A : std_logic_vector(3 downto 0) := "0000";
+   signal B : std_logic_vector(3 downto 0) := "0000";
 
  	--Outputs
    signal SOMA : std_logic_vector(3 downto 0);
-   signal CARRY : std_logic;
+   signal CARRY : std_logic := '0';
    signal OVERFLOW : std_logic;
    signal ZERO : std_logic;
    signal NEGATIVE : std_logic;
-   -- No clocks detected in port list. Replace <clock> below with 
-   -- appropriate port name 
- 
+	
 	constant WAIT_time : time := 10ns;
 BEGIN
  
@@ -82,90 +60,31 @@ BEGIN
 
    test_proccess: process
 	begin
+		-- 0 + 0
+		A <= "0000"; 
+		B <= "0000";
+		wait for WAIT_time;
+		
+		-- 2 + 4
+		A <= "0010";
+		B <= "0100";
+		wait for WAIT_time;
+		
+		-- 15 + 15
+		A <= "1111";
+		B <= "1111";
+		wait for WAIT_time;
+		
+		-- 8 + 2
 		A <= "1000";
-		B <= "1000";
+		B <= "0010";
 		wait for WAIT_time;
-		A <= "0001";
+		
+		-- 0 + 1
+		A <= "0000";
 		B <= "0001";
 		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
-		A <= "0001";
-		B <= "0001";
-		wait for WAIT_time;
+		
    end process;
 
 END;

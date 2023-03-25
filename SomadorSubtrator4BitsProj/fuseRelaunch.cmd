@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_isim_beh.exe" -prj "C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somador_beh.prj" "work.tb_somador" 
+-intstyle "ise" -incremental -o "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_isim_beh.exe" -prj "/home/ise/Documents/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/tb_somadorSubtrator4bits_beh.prj" "work.tb_somadorSubtrator4bits" 
