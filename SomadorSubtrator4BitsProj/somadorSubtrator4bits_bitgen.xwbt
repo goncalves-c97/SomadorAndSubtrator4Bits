@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\082190011\Documents\GitHub\SomadorSubtrator4Bits\SomadorSubtrator4BitsProj\somadorSubtrator4bits.ncd
+OUTFILE=C:\Users\082190011\Documents\GitHub\SomadorSubtrator4Bits\SomadorSubtrator4BitsProj\somadorSubtrator4bits.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\082190011\Documents\GitHub\SomadorSubtrator4Bits\SomadorSubtrator4BitsProj
+LICENSE=WebPack
+USER_INFO=212138671_0_0_977

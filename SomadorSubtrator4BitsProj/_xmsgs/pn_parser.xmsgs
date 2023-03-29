@@ -8,5 +8,29 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/LedInterface.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/decoder7seg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/mux2x8.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg4bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/reg8bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somador4bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SomadorSubtrator4BitsProj/somadorSubtrator4bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/082190011/Documents/GitHub/SomadorSubtrator4Bits/SubtratorProj/subtrator4bits.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

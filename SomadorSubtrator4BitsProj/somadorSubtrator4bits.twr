@@ -4,7 +4,8 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
 3 -fastpaths -xml somadorSubtrator4bits.twx somadorSubtrator4bits.ncd -o
-somadorSubtrator4bits.twr somadorSubtrator4bits.pcf
+somadorSubtrator4bits.twr somadorSubtrator4bits.pcf -ucf
+ucf_somadorSubtrator4bits.ucf
 
 Design file:              somadorSubtrator4bits.ncd
 Physical constraint file: somadorSubtrator4bits.pcf
@@ -45,15 +46,15 @@ Setup/Hold to clock CLK
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-CLR         |    1.017(R)|    0.808(R)|CLK_BUFGP         |   0.000|
-EN1         |    0.195(R)|    1.305(R)|CLK_BUFGP         |   0.000|
-EN2         |    0.239(R)|    1.209(R)|CLK_BUFGP         |   0.000|
-EN3         |    0.442(R)|    1.245(R)|CLK_BUFGP         |   0.000|
-INPUT<0>    |    0.419(R)|    1.062(R)|CLK_BUFGP         |   0.000|
-INPUT<1>    |    0.015(R)|    1.188(R)|CLK_BUFGP         |   0.000|
-INPUT<2>    |    0.015(R)|    1.324(R)|CLK_BUFGP         |   0.000|
-INPUT<3>    |    0.264(R)|    1.189(R)|CLK_BUFGP         |   0.000|
-SEL         |    2.607(R)|    0.944(R)|CLK_BUFGP         |   0.000|
+CLR         |    2.493(R)|    0.373(R)|CLK_BUFGP         |   0.000|
+EN1         |    1.690(R)|    0.055(R)|CLK_BUFGP         |   0.000|
+EN2         |    2.075(R)|    0.159(R)|CLK_BUFGP         |   0.000|
+EN3         |    1.938(R)|    0.286(R)|CLK_BUFGP         |   0.000|
+INPUT<0>    |    1.017(R)|    0.367(R)|CLK_BUFGP         |   0.000|
+INPUT<1>    |    1.028(R)|    0.358(R)|CLK_BUFGP         |   0.000|
+INPUT<2>    |    1.176(R)|    0.679(R)|CLK_BUFGP         |   0.000|
+INPUT<3>    |    0.978(R)|    0.597(R)|CLK_BUFGP         |   0.000|
+SEL         |    3.271(R)|    0.170(R)|CLK_BUFGP         |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock CLK to Pad
@@ -61,16 +62,16 @@ Clock CLK to Pad
               | clk (edge) |                  | Clock  |
 Destination   |   to PAD   |Internal Clock(s) | Phase  |
 --------------+------------+------------------+--------+
-FLAG_OUTPUT<0>|    7.628(R)|CLK_BUFGP         |   0.000|
-FLAG_OUTPUT<2>|    7.558(R)|CLK_BUFGP         |   0.000|
-FLAG_OUTPUT<3>|    7.017(R)|CLK_BUFGP         |   0.000|
-OUTPUT<0>     |    9.763(R)|CLK_BUFGP         |   0.000|
-OUTPUT<1>     |    9.971(R)|CLK_BUFGP         |   0.000|
-OUTPUT<2>     |   10.415(R)|CLK_BUFGP         |   0.000|
-OUTPUT<3>     |   10.614(R)|CLK_BUFGP         |   0.000|
-OUTPUT<4>     |   10.130(R)|CLK_BUFGP         |   0.000|
-OUTPUT<5>     |    9.966(R)|CLK_BUFGP         |   0.000|
-OUTPUT<6>     |   10.503(R)|CLK_BUFGP         |   0.000|
+FLAG_OUTPUT<0>|    7.922(R)|CLK_BUFGP         |   0.000|
+FLAG_OUTPUT<2>|    8.556(R)|CLK_BUFGP         |   0.000|
+FLAG_OUTPUT<3>|    7.867(R)|CLK_BUFGP         |   0.000|
+OUTPUT<0>     |    9.986(R)|CLK_BUFGP         |   0.000|
+OUTPUT<1>     |    9.690(R)|CLK_BUFGP         |   0.000|
+OUTPUT<2>     |   10.434(R)|CLK_BUFGP         |   0.000|
+OUTPUT<3>     |   10.120(R)|CLK_BUFGP         |   0.000|
+OUTPUT<4>     |   10.455(R)|CLK_BUFGP         |   0.000|
+OUTPUT<5>     |    9.593(R)|CLK_BUFGP         |   0.000|
+OUTPUT<6>     |    9.694(R)|CLK_BUFGP         |   0.000|
 --------------+------------+------------------+--------+
 
 Clock to Setup on destination clock CLK
@@ -78,18 +79,18 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    4.614|         |         |         |
+CLK            |    3.952|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri Mar 24 21:50:14 2023 
+Analysis completed Tue Mar 28 20:11:35 2023 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 130 MB
+Peak Memory Usage: 129 MB
 
 
 
